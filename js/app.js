@@ -132,6 +132,21 @@
 
 // console.log(max, min);
 
+// 9-masala
+
+let a = +prompt("1son");
+let b = +prompt("2son");
+let c;
+
+if (a > b) {
+    c = a;
+    a = b;
+    b = c;
+}
+
+console.log(a);
+console.log(b);
+
 // 10-masala
 
 // let a = +prompt("1son")
